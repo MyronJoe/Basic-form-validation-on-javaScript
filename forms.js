@@ -15,7 +15,7 @@ form[0].addEventListener('submit', function (e) {
     if (username == '') {
         document.getElementById('username_err').innerHTML = 'username cant be empty'
         inps[0].classList.add('error-border')
-        return false
+        return false;
     }
     if (username.length > 6) {
         document.getElementById('username_err').innerHTML = 'username must be less than 6'
