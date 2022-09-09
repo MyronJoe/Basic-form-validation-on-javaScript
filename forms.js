@@ -7,10 +7,10 @@ console.log(form)
 form[0].addEventListener('submit', function (e) {
     e.preventDefault()
 
-    let username = inps[0].value
-    let email = inps[1].value
-    let password = inps[2].value
-    let confirm_password = inps[3].value
+    let username = inps[0].value;
+    let email = inps[1].value;
+    let password = inps[2].value;
+    let confirm_password = inps[3].value;
 
     if (username == '') {
         document.getElementById('username_err').innerHTML = 'username cant be empty'
